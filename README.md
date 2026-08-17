@@ -230,29 +230,9 @@ The script will:
 
 ---
 
-## 10. Short explanation for interviews
 
-You can explain the project like this:
 
-> I created a hydro-climatology machine learning project for Mumbai/Powai. I used NASA POWER daily rainfall and weather data from 2010 to 2025. Since observed discharge data was not available, I generated a runoff-event proxy using the SCS Curve Number method. Then I trained an LSTM model using the previous 30 days of rainfall, temperature, humidity, wind speed, antecedent rainfall, runoff proxy, and seasonal features to predict whether the next day would be a significant runoff-event day. The model was tested on 2023-2025 data and achieved a ROC-AUC of about 0.965 and an F1-score of about 0.736.
-
----
-
-## 11. Resume bullet points
-
-You can add one of these to your resume:
-
-**Option 1:**
-
-- Built a Python-based hydro-climatology ML project using NASA POWER climate data and an LSTM model to forecast next-day runoff-event risk near IIT Bombay/Powai; engineered rainfall-runoff and antecedent rainfall features and achieved ROC-AUC of 0.965 on 2023-2025 test data.
-
-**Option 2:**
-
-- Developed an end-to-end water resources analytics pipeline in Python for monsoon runoff-event prediction, including climate data extraction, SCS Curve Number runoff proxy generation, LSTM sequence modelling, and visualization of hydro-climatic trends and model performance.
-
----
-
-## 12. Limitations and possible improvements
+## 9. Limitations and possible improvements
 
 Current limitations:
 
@@ -270,6 +250,6 @@ Possible improvements:
 
 ---
 
-## 13. Keywords
+## 10. Keywords
 
 Hydro-climatology, Water Resources Engineering, LSTM, Machine Learning, Rainfall-Runoff Modelling, SCS Curve Number, Monsoon, Mumbai, IIT Bombay, Python, Climate Data Analytics.
