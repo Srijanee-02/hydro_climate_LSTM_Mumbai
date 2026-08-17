@@ -1,12 +1,5 @@
 # Hydro-climatology AI/ML Project: Next-day Runoff Event Forecasting near IIT Bombay/Powai
 
-A beginner-friendly self project combining **Python**, **hydrology**, **climatology**, and **AI/ML using an LSTM model**.
-
-**Project idea:** Use daily hydro-climatic variables near IIT Bombay/Powai, Mumbai to forecast whether the next day may have a significant runoff event.
-
-This is suitable for a GitHub repository and resume discussion for **Water Resources Engineering**, **hydro-climatology**, **climate-risk analytics**, **data science**, and **non-core analytics roles**.
-
----
 
 ## 1. Why this project is useful
 
@@ -168,71 +161,8 @@ Interpretation:
 
 ---
 
-## 8. Repository structure
 
-```text
-hydro_climate_lstm_mumbai/
-│
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── nasa_power_powai_2010_2025.csv
-│   └── processed_powai_hydroclimate_2010_2025.csv
-│
-├── src/
-│   └── hydro_lstm_project.py
-│
-└── results/
-    ├── 01_monthly_rainfall_runoff_climatology.png
-    ├── 02_annual_rainfall_runoff_variability.png
-    ├── 03_2025_monsoon_rainfall_to_runoff_proxy.png
-    ├── 04_lstm_training_loss.png
-    ├── 05_lstm_test_probabilities_2025_monsoon_zoom.png
-    ├── 06_lstm_roc_and_precision_recall_curves.png
-    ├── 07_lstm_confusion_matrix.png
-    ├── 08_monthly_actual_vs_predicted_event_rate.png
-    ├── metrics.json
-    ├── test_predictions_2023_2025.csv
-    └── training_history.csv
-```
-
----
-
-## 9. How to run this project
-
-### Step 1: Clone the repository
-
-```bash
-git clone <your-repo-link>
-cd hydro_climate_lstm_mumbai
-```
-
-### Step 2: Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Step 3: Run the project
-
-```bash
-python src/hydro_lstm_project.py
-```
-
-The script will:
-
-1. Download NASA POWER daily data if not already saved
-2. Create hydrology features
-3. Build 30-day LSTM sequences
-4. Train the LSTM
-5. Evaluate on 2023-2025 data
-6. Save plots and metrics in the `results/` folder
-
----
-
-
-
-## 9. Limitations and possible improvements
+## 8. Limitations and possible improvements
 
 Current limitations:
 
@@ -250,6 +180,6 @@ Possible improvements:
 
 ---
 
-## 10. Keywords
+## 9. Keywords
 
 Hydro-climatology, Water Resources Engineering, LSTM, Machine Learning, Rainfall-Runoff Modelling, SCS Curve Number, Monsoon, Mumbai, IIT Bombay, Python, Climate Data Analytics.
